@@ -1,5 +1,11 @@
 # EARTH — 驾驶者视角
 
+在线体验：https://1831812780-cloud.github.io/earth-space-drive/
+
+方向键 / WASD 驾驶，首次点击画面启动音乐，M 键暂停或继续。
+
+仓库 `main` 保存源代码，`gh-pages` 保存已构建的静态网站，GitHub Pages 从该分支发布。
+
 React / TypeScript / Vite / Three.js / React Three Fiber。窗外的地球与月球为实时 WebGL，驾驶舱、双手与方向盘为透明图片图层。使用真实地理纹理，来源与许可见 ASSETS.md。
 
 ## 启动
