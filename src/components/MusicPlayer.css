@@ -1,0 +1,9 @@
+.music-player { margin-top: 10px; padding-top: 10px; border-top: 1px solid #ffffff18; }
+.music-actions { display: flex; gap: 6px; flex-wrap: wrap; align-items: center; }
+.music-file { cursor: pointer; color: #aab5bd; font-size: 12px; text-decoration: underline; }
+.music-file input { position: absolute; width: 1px; height: 1px; overflow: hidden; opacity: 0; }
+.music-file:focus-within { outline: 1px solid #aab5bd; outline-offset: 3px; }
+.youtube-stage { width: 280px; height: 200px; max-width: 100%; margin-top: 8px; background: #000; }
+.youtube-stage iframe { display: block; width: 100%; height: 200px; border: 0; }
+.music-player audio { display: block; width: 280px; max-width: 100%; height: 36px; margin-top: 8px; }
+.music-player .music-track { color: #aab5bd; font-size: 12px; line-height: 1.5; }

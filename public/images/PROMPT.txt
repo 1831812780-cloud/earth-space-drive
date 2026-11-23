@@ -1,0 +1,7 @@
+Built-in image_gen edit. Input: user supplied Astronaut Driving Toward Earth.png.
+Use case: background-extraction. Preserve the original photorealistic cockpit, windshield frame, dashboard, wheel and astronaut gloves. Remove all Earth and exterior scenery through the windshield and above the car, leaving genuine alpha transparency. Keep the camera, framing and materials unchanged. No added objects or words. The cockpit extends to the bottom and side edges.
+
+Gesture driving layers — built-in image_gen edits of cockpit.png:
+1. Stationary cockpit: remove both astronaut arms, gloves and entire steering wheel; reconstruct shadowed dashboard/footwell, retain exact framing and transparent windshield. Muted charcoal burgundy paint, low saturation and hard directional sunlight, no purple glow.
+2. Steering layer: retain ONLY both astronaut arms, gloves and complete steering wheel; remove all cockpit, dashboard and surrounding pixels to true alpha. Preserve full canvas dimensions and original positions.
+Outputs: cockpit-base.png and steering-hands.png. UI applies a scale/position adjustment to align generated wheel with dashboard.
